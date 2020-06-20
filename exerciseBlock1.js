@@ -525,17 +525,22 @@
 
 //ex143
 
-let age = prompt('How old are you?' [18]);
-if (age < 18 ) 
-    {alert('вам пока рано')}
-    else if (age == 18)
-    {alert('уже можно)')}
-    else
-    {alert('проходите')}; 
-
-
-
-
+let login = prompt('Why is it?', 'Admin');
+let pass;
+if (login == 'Admin') {
+    pass = prompt('Enter your pass:', '');
+    if (pass == '32167') {
+        alert('Greetings');
+    } else if (pass == '' || pass == null) {
+        alert('cancel');
+    } else {
+        alert('access denied');
+    }
+} else if (login == '' || login == null) {
+    alert('cancel');
+} else {
+    alert('Why are you?')
+};
 
 
 
