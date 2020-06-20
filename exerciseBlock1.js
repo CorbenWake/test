@@ -293,9 +293,270 @@
 
 //ex710
 
-let a = 710,
-    b = 1821;
-alert(String(a).length + String(b).length);
+// let a = 710,
+//     b = 1821;
+// alert(String(a).length + String(b).length);
+
+//ex81
+
+// let a = 'abcde';
+// alert(a[0] + a[2] + a[4]);
+
+//ex82
+
+// let a = 'abcde';
+// let b = (a[4] + a[3] + a[2] + a[1] + a[0]);
+// alert(b);
+
+//ex83
+
+// let a = 'abcde';
+// let b = 3;
+// alert(a[b]);
+
+//ex84
+
+// let a = 'abcde';
+// alert(a[a.length - 1]);
+
+//ex85
+
+// let a = 'abcde';
+// alert(a[a.length - 2]);
+
+//ex86
+
+// let a = 'abcde';
+// alert(a[a.length - 3]);
+
+//ex87
+
+// let a = '12345';
+// alert(Number(a[0]) + Number(a[1]) + Number(a[2]) + Number(a[3]) + Number(a[4]));
+
+//ex88
+
+// let a = String(12345);
+// alert(Number(a[0]) + Number(a[1]) + Number(a[2]) + Number(a[3]) + Number(a[4]));
+
+//ex89
+
+// let a = String(12345);
+// alert(Number(a[0]) * Number(a[1]) * Number(a[2]) * Number(a[3]) * Number(a[4]));
+
+//ex810
+
+// let a = String(12345);
+// a = Number((a[4]) + (a[3]) + (a[2]) + (a[1]) + (a[0]));
+// alert(a);
+
+//ex93
+
+// let num = 47;
+// num += 7;
+// num -= 18;
+// num *= 10;
+// num /= 15;
+// alert(num);
+
+//ex101
+
+// let num = 10;
+// num++;
+// num++;
+// num--;
+// alert(num);
+
+//ex111
+
+// let name = prompt('What is your name?', '');
+// alert('Your name is ' + name);
+
+//ex112
+
+// let num1 = prompt('Введите первое число');
+// let num2 = prompt('Введите второе число');
+
+// alert(Number(num1) + Number(num2)); 
+
+//ex113
+
+// let a = prompt('Enter the side of the square', '');
+// alert('The area of ​​the entered square is ' + Number(a) ** 2);
+
+//ex114
+
+// let a = prompt('Enter the side "A" of the rectangle', '');
+// let b = prompt('Enter the side "B" of the rectangle', '');
+// alert('The perimeter of the entered rectangle is ' + (Number(a) + Number(b)) * 2);
+
+//ex121
+
+// let arr = ['a', 'b', 'c'];
+// alert(arr);
+// console.log(arr);
+
+//ex122
+
+// let arr = ['a', 'b', 'c'];
+// alert(arr[0]);
+// alert(arr[1]);
+// alert(arr[2]);
+
+//ex123
+
+// let arr = ['a', 'b', 'c', 'd'];
+// alert("'" + arr[0] + '+' + arr[1] + '+' + arr[2] + '+' + arr[3] + "'");
+
+//ex124
+
+// let arr = [1, 2, 3];
+// alert(arr[0] + arr[1] + arr[2]);
+
+//ex125
+
+// let arr = [2, 5, 3, 9];
+// let result = (arr[0] * arr[1] + arr[2] * arr[3]);
+// alert(result); 
+
+//ex126
+
+// let arr = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+// alert(arr.length);
+
+//ex127
+
+// let arr = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+// alert(arr[arr.length - 1]);
+
+//ex128
+
+// let arr = ['a', 'b', 'c'];
+// arr[0] = 1;
+// arr[1] = 2;
+// arr[2] = 3;
+// alert(arr);
+
+//ex129
+
+// let arr = ['a', 'b', 'c'];
+// arr[0] = 1;
+// arr[1] = 2;
+// arr[2] = 3;
+
+// arr[0] = arr[0] + 3;
+// arr[1] = arr[1] + 3;
+// arr[2] = arr[2] + 3;
+
+// alert(arr);
+
+//ex1210
+
+// let arr = [1, 2, 3];
+// arr[0]++;
+// arr[1]++;
+// arr[2]++;
+// alert(arr);
+
+//ex1211
+
+// let arr = [];
+// arr[0] = 1;
+// arr[1] = 2;
+// arr[2] = 3;
+// alert(arr);
+
+//ex1212
+
+// let arr = [1, 2, 3];
+// arr[3] = 4;
+// arr[4] = 5;
+// alert(arr);
+
+//ex131
+
+// let obj = {1: 'a', 2: 'b', 3: 'c'};
+// alert(obj[1] + obj[2] + obj[3]);
+
+//ex132
+
+// let obj = {a: 1, b: 2, c: 3};
+// alert(Number(obj['a']) + Number(obj['b']) + Number(obj['c']));
+
+//ex133
+
+// let obj = {'1a': 1, '2b': 2, 'c-c': 3};
+// alert(Number(obj['1a']) + Number(obj['2b']) + Number(obj['c-c']));
+
+//ex134
+
+// let obj = {key1: 1, key2: 2, key3: 3};
+// alert((obj.key1) + (obj.key2) + (obj.key3));
+
+//ex135
+
+// let user = {name: 'Егор', surname: 'Чудиновский', patronymic: 'Борисович'};
+// alert('Your full name: ' + (user.surname) + ' ' + (user.name) + ' ' + (user.patronymic));
+
+//ex136
+
+// let date = {year: 2020, month: 05, day: 11};
+// alert('Current date is: ' + (date.year) + '-' + (date.month) + '-' + (date.day));
+
+//ex137
+
+// let obj = {};
+// obj.a = 1;
+// obj.b = 2;
+// obj.c = 3;
+// console.log(obj);
+
+//ex141
+
+// let arr = ['a', 'b', 'c'];
+// let key = 2;
+// console.log(arr[key]);
+
+//ex142
+
+// let arr = [1, 2, 3, 4, 5];
+// let key1 = 1, key2 = 2;
+// alert(arr[key1] + arr[key2]);
+
+//ex143
+
+let age = prompt('How old are you?' [18]);
+if (age < 18 ) 
+    {alert('вам пока рано')}
+    else if (age == 18)
+    {alert('уже можно)')}
+    else
+    {alert('проходите')}; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
